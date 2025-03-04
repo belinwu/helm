@@ -7,7 +7,7 @@ export default function FinanceLanding() {
       <h1 className="text-3xl my-8 font-bold text-center">HELM Finance</h1>
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="flex-1 text-l">
-          <p className="my-4">
+          <p className="mb-4">
             LLMs show great potential for applications in the financial domain,
             yet there is a lack of LLM evaluations in financial contexts. To
             address this, we introduce the{" "}
