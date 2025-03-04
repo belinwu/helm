@@ -10,16 +10,15 @@ export default function CallCenterLanding() {
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="flex-1 text-l">
           <p className="my-4">
-            LLMs show great potential for applications for the call center, yet
-            there is a lack of domain-specific and ecologically-valid
-            evaluations in this domain. To address this, we introduce the{" "}
-            <strong className="font-bold">HELM Call Center leaderboard</strong>.
-            The HELM Call Center leaderboard evaluates leading LLMs on a
-            summarization task over a dataset of real helpdesk call transcripts
-            provided by Accenture. The quality of the summaries is evaluated
-            using LLM-as-judge with an ensemble of 3 models. We hope that this
-            leaderboard provides some initial insights into the potential of
-            LLMs in this domain.
+            LLMs show great potential for applications in the financial domain,
+            yet there is a lack of financial-domain evaluations for LLMs. To
+            address this, we introduce the{" "}
+            <strong className="font-bold">HELM Finance</strong> leaderboard. The
+            HELM Finance leaderboard evaluates leading LLMs on a three financial
+            benchmarks (FinQA, FinanceBench, BANKING77) that utilize real
+            financial documents, using the HELM open-source framework for
+            transparent and reproducible evaluations. We hope that this
+            leaderboard provides valuable insights for financial practitioners.
           </p>
           <p className="my-4">
             This leaderboard was produced through research collaboration with{" "}

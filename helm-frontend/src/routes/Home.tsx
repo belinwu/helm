@@ -17,6 +17,7 @@ import SafetyLanding from "@/components/Landing/SafetyLanding";
 import CapabilitiesLanding from "@/components/Landing/CapabilitiesLanding";
 import MMLUWinograndeAfrLanding from "@/components/Landing/MMLUWinograndeAfrLanding";
 import SEAHELMLanding from "@/components/Landing/SEAHELMLanding";
+import SQLLanding from "@/components/Landing/SQLLanding";
 
 export default function Home() {
   // TODO consider a more streamlined way to do this?
@@ -38,6 +39,8 @@ export default function Home() {
     return <ThaiExamLanding />;
   } else if (window.PROJECT_ID === "finance") {
     return <FinanceLanding />;
+  } else if (window.PROJECT_ID === "sql") {
+    return <SQLLanding />;
   } else if (window.PROJECT_ID === "call-center") {
     return <CallCenterLanding />;
   } else if (window.PROJECT_ID === "cleva") {
